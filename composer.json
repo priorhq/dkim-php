@@ -1,6 +1,6 @@
 {
-    "name": "jv-conseil/dkim-php-mail-signature",
-    "description": "🔏 Stand-alone DKIM class to sign your emails with a 2048 bit private key hashed with SHA-256 algorithm.",
+    "name": "priorhq/dkim-php",
+    "description": "Stand-alone DKIM class to sign your emails with a 2048 bit private key hashed with SHA-256 algorithm.",
     "keywords": ["dkim", "dkim-signature", "dmarc", "dmarc-record", "spf", "spf-record", "composer", "packagist", "php"],
     "type": "library",
     "homepage": "http://www.jv-conseil.net",
@@ -15,20 +15,18 @@
     ],
     "minimum-stability": "dev",
     "require": {
-		"php": ">=5.6.37"
+        "php": ">=5.6.37"
     },
     "require-dev": {
         "phpdocumentor/phpdocumentor": "2.*"
     },
     "autoload": {
         "psr-4": {
-            "JVconseil\\DkimPhpMailSignature\\": "src/"
+            "Prior\\Dkim\\": "src/"
         }
     },
     "support": {
-        "issues": "https://github.com/JV-conseil-Internet-Consulting/dkim-php-mail-signature/issues",
-        "docs": "https://jv-conseil-internet-consulting.github.io/dkim-php-mail-signature/classes/JVconseil.DkimPhpMailSignature.DKIMconfig.html",
-        "wiki": "https://github.com/JV-conseil-Internet-Consulting/dkim-php-mail-signature/wiki"
+        "issues": "https://github.com/priorhq/dkim-php/issues"
     },
     "scripts": {
         "test": "php examples/SignWithConfigClass.php"
